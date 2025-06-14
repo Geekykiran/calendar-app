@@ -65,7 +65,6 @@ package.json
 ## Time Taken
 
 Development time: **~7 hours**  
-*(Replace X with your actual time spent)*
 
 ## Contributing
 
