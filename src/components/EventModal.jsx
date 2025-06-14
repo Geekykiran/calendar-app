@@ -83,14 +83,14 @@ const EventModal = () => {
           transition={{ type: 'spring', stiffness: 200, damping: 20 }}
           className="bg-white/30 text-black shadow-[0_15px_25px_rgba(0,0,0,0.4)] rounded-2xl p-6 w-full max-w-4xl max-h-[90vh] overflow-hidden"
         >
-          {/* Header */}
+          
           <div className="flex justify-between items-center mb-4">
             <h2 className="text-xl font-bold">Manage Events for {selectedDate.format('DD MMM YYYY')}</h2>
             <button className="hover:text-red-500 font-semibold text-lg" onClick={closeModal}>✕</button>
           </div>
 
           <div className="md:flex md:space-x-6 space-y-6 md:space-y-0">
-            {/* Left: Add/Edit Form */}
+            
             <div className="md:w-1/2">
               <h3 className="text-lg font-semibold mb-2">{editingIndex !== null ? 'Edit Event' : 'Add Event'}</h3>
               <div className="space-y-3">
@@ -153,7 +153,7 @@ const EventModal = () => {
               </div>
             </div>
 
-            {/* Right: Event List */}
+            
             <div className="md:w-1/2">
               <h3 className="text-lg font-semibold mb-2">Events</h3>
               <input

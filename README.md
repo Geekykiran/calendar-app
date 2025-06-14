@@ -1,12 +1,87 @@
-# React + Vite
+# Calendar App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive calendar application built with React Vite and TailwindCSS. This project allows users to create, view, and manage events efficiently, with a focus on usability and performance.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Add, edit, and delete events**
+- **Monthly calendar view**
+- **Event details modal**
+- **LocalStorage persistence** (Bonus)
+- **Search events by title** (Bonus)
+- **Responsive design for desktop and mobile**
 
-## Expanding the ESLint configuration
+## Bonus Features Implemented
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **LocalStorage Persistence:** All events are saved in the browser, so your data remains after refreshing or closing the app.
+- **Search Events by Title:** Quickly find events using the search bar.
+
+## Bonus Features Open for Contribution
+
+- **Color-coded categories** (e.g., Personal, Work)
+- **Drag & drop event rescheduling**
+- **Recurring events** (simple weekly/daily toggle)
+- **Day view or Week view**
+
+See [Contribution Guidelines](#contributing) below if you’d like to help implement these features!
+
+## Installation
+
+1. **Clone the repository:**
+    ```bash
+    git clone https://github.com/Geekykiran/calendar-app.git
+    cd calendar-app
+    ```
+
+2. **Install dependencies:**
+    ```bash
+    npm install
+    ```
+
+3. **Run the app locally:**
+    ```bash
+    npm run dev
+    ```
+    The app will be available at `http://localhost:5173` (or as indicated in your terminal).
+
+## Project Structure
+
+```
+/src
+  /components      # Reusable React components (Calendar, EventModal, DayCell)
+  /context         # Utility functions (state and function management, storage)
+  /hooks           # Custom hooks for days generations
+  App.jsx          # Main app component
+  main.jsx         # Entry point
+index.html
+vite.config.js
+package.json
+```
+
+## Time Taken
+
+Development time: **~7 hours**  
+*(Replace X with your actual time spent)*
+
+## Contributing
+
+Contributions are welcome! To work on bonus features:
+
+1. Fork the repository and create a new branch for your feature.
+2. Follow existing code style and structure.
+3. Submit a pull request with a clear description of your changes.
+
+For bonus features, please reference the feature in your PR title (e.g., `[Feature] Color-coded categories`).
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## Acknowledgements
+
+- Built with [React](https://react.dev/) and [Vite](https://vitejs.dev/)
+- Inspired by the Calendar App by Google
+
+---
+
+Feel free to open issues for bugs, suggestions, or feature requests!
