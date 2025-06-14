@@ -2,6 +2,10 @@
 
 A modern, responsive calendar application built with React Vite and TailwindCSS. This project allows users to create, view, and manage events efficiently, with a focus on usability and performance.
 
+## Live Demo
+
+Check out the live deployed app here: [https://geekykiran.github.io/calendar-app/](https://geekykiran.github.io/calendar-app/)
+
 ## Features
 
 - **Add, edit, and delete events**
