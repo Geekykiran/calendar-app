@@ -14,7 +14,6 @@ const DayCell = ({ date, events, isToday, onClick, currentMonth }) => {
       <div className="text-sm font-bold mb-1">
         {isCurrentMonth ? date.date() : ''}
       </div>
-
      
       {isCurrentMonth &&
         events.slice(0, 2).map((event, idx) => (
